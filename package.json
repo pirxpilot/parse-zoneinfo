@@ -1,0 +1,38 @@
+{
+  "name": "parse-zoneinfo",
+  "version": "0.0.0",
+  "description": "Async parser for binary tzdata zoneinfo files.",
+  "homepage": "https://github.com/code42day/parse-zoneinfo",
+  "author": {
+    "name": "Damian Krzeminski",
+    "email": "pirxpilot@code42day.com",
+    "url": "https://code42day.com"
+  },
+  "repository": "code42day/parse-zoneinfo",
+  "license": "MIT",
+  "keywords": [
+    "parse-zoneinfo",
+    "timezone",
+    "tzdata",
+    "zoneinfo",
+    "parser",
+    "time zone",
+    "tz",
+    "olson",
+    "parser",
+    "async"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "jshint": "^2.9.1",
+    "mocha": "^2.4.5",
+    "should": "^8.2.2"
+  },
+  "scripts": {
+    "test": "make check"
+  },
+  "files": [
+    "index.js",
+    "lib"
+  ]
+}
