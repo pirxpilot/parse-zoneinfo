@@ -22,7 +22,9 @@
     "parser",
     "async"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "jspack": "0.0.4"
+  },
   "devDependencies": {
     "jshint": "^2.9.1",
     "mocha": "^2.4.5",

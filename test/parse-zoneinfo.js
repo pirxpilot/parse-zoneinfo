@@ -1,9 +1,18 @@
 var should = require('should');
-var parseZoneinfo = require('../');
+var parse = require('../');
 
-describe('parse-zoneinfo node module', function () {
-  it('must have at least one test', function () {
-    parseZoneinfo();
-    should.fail('Need to write tests.');
+parse.PREFIX = __dirname;
+
+describe('parse', function () {
+
+  it('should parse America/Boise', function (done) {
+    var reference = require('./tzdata.json');
+
+    parse('America/Boise', function(err, tzinfo) {
+      should.exist(tzinfo);
+      tzinfo.should.eql(reference);
+      done(err);
+    });
   });
+
 });

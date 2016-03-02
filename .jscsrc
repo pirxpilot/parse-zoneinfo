@@ -1,0 +1,10 @@
+{
+	"preset": "grunt",
+	"disallowMultipleVarDecl": null,
+	"disallowSpacesInAnonymousFunctionExpression": null,
+	"disallowSpacesInFunctionExpression": null,
+  "disallowSpacesInsideObjectBrackets": null,
+	"disallowMultipleLineBreaks": null,
+	"jsDoc": null,
+	"requireOperatorBeforeLineBreak": null
+}
