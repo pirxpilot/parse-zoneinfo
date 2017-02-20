@@ -2,13 +2,13 @@
   "name": "parse-zoneinfo",
   "version": "1.1.0",
   "description": "Async parser for binary tzdata zoneinfo files.",
-  "homepage": "https://github.com/code42day/parse-zoneinfo",
+  "homepage": "https://github.com/pirxpilot/parse-zoneinfo",
   "author": {
     "name": "Damian Krzeminski",
-    "email": "pirxpilot@code42day.com",
-    "url": "https://code42day.com"
+    "email": "pirxpilot@furkot.com",
+    "url": "https://pirxpilot.me"
   },
-  "repository": "code42day/parse-zoneinfo",
+  "repository": "pirxpilot/parse-zoneinfo",
   "license": "MIT",
   "keywords": [
     "parse-zoneinfo",
