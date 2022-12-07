@@ -15,11 +15,10 @@ $ npm install --save parse-zoneinfo
 ## Usage
 
 ```js
-var parse = require('parse-zoneinfo');
+const parse = require('parse-zoneinfo');
 
-parse('America/Boise', function(err, tzdata) {
-  console.log(tzdata);
-});
+const tzdata = await parse('America/Boise');
+console.log(tzdata);
 ```
 
 ## License
