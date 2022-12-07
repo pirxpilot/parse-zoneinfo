@@ -1,18 +1,15 @@
-var should = require('should');
-var parse = require('../');
+const assert = require('assert');
+const parse = require('../');
 
 parse.PREFIX = __dirname;
 
-describe('parse', function () {
+describe('parse', () => {
 
-  it('should parse America/Boise', function (done) {
-    var reference = require('./tzdata.json');
+  it('should parse America/Boise', async function () {
+    const reference = require('./tzdata.json');
 
-    parse('America/Boise', function(err, tzinfo) {
-      should.exist(tzinfo);
-      tzinfo.should.eql(reference);
-      done(err);
-    });
+    const tzinfo = await parse('America/Boise');
+    assert.deepEqual(tzinfo, reference);
   });
 
 });
