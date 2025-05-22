@@ -1,6 +1,6 @@
 {
   "name": "parse-zoneinfo",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Async parser for binary tzdata zoneinfo files.",
   "exports": "./lib/parse-zoneinfo.js",
   "homepage": "https://github.com/pirxpilot/parse-zoneinfo",
