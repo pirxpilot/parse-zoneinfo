@@ -2,13 +2,17 @@
   "name": "parse-zoneinfo",
   "version": "2.0.0",
   "description": "Async parser for binary tzdata zoneinfo files.",
+  "exports": "./lib/parse-zoneinfo.js",
   "homepage": "https://github.com/pirxpilot/parse-zoneinfo",
   "author": {
     "name": "Damian Krzeminski",
     "email": "pirxpilot@furkot.com",
     "url": "https://pirxpilot.me"
   },
-  "repository": "pirxpilot/parse-zoneinfo",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pirxpilot/parse-zoneinfo.git"
+  },
   "license": "MIT",
   "keywords": [
     "parse-zoneinfo",
@@ -29,7 +33,6 @@
     "test": "make check"
   },
   "files": [
-    "index.js",
     "lib"
   ]
 }
