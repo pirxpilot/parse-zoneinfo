@@ -23,8 +23,7 @@
     "async"
   ],
   "devDependencies": {
-    "jshint": "~2",
-    "mocha": "~10"
+    "@biomejs/biome": "^1.9.4"
   },
   "scripts": {
     "test": "make check"
